@@ -15,4 +15,4 @@ Set up the SQL project environment and prepare the dataset for analysis.
 - GitHub
 
 ### Outcome
-Successfully completed project setup. Ready to start data cleaning and analysis from
+Successfully completed project setup. Ready to start data cleaning and analysis 
