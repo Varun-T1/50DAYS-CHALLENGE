@@ -2,7 +2,6 @@
 SELECT * FROM Cleaned_department
 WHERE dept_name IS  NULL OR dept_name = ''
 OR dept_id IS NULL OR  dept_id = '';
-USE 50_day_challenge;
 
 --employee
 
