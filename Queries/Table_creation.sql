@@ -44,3 +44,26 @@ CREATE TABLE salaries(
     rating_2023 VARCHAR(60),
     rating_2024 VARCHAR(60)
 );
+ USE 50_day_challenge;
+
+CREATE TABLE Cleaned_department
+as
+SELECT * FROM department;
+ 
+CREATE TABLE Cleaned_employee
+as
+SELECT * FROM employee;
+
+CREATE TABLE Cleaned_salaries
+ as
+SELECT * FROM salaries;
+  
+CREATE TABLE Cleaned_attendance
+ as
+SELECT * FROM attendance;
+  
+CREATE TABLE Cleaned_performance
+ as
+SELECT * FROM performance;
+SELECT * FROM Cleaned_department;
+
