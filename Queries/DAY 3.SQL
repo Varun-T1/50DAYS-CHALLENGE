@@ -5,14 +5,6 @@ USE 50_day_challenge;
 set emp_name = 'unknown' WHERE emp_name IS NULL
  OR emp_name = ''
 
-
--emp age
-update Cleaned_employee
-set age = 'not_available'
-WHERE age IS NULL OR age = '';
-
-
-
 --EMP 13 =DELHI
 update Cleaned_employee
 set city='Delhi '
