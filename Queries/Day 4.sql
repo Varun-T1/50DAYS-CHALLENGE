@@ -49,3 +49,4 @@ ELSE city
 END;
 
 
+TRUNCATE TABLE cleaned_employee;
