@@ -1,0 +1,35 @@
+--department
+SELECT * FROM Cleaned_department
+WHERE dept_name IS  NULL OR dept_name = ''
+OR dept_id IS NULL OR  dept_id = '';
+
+--employee
+
+SELECT * FROM Cleaned_employee
+WHERE emp_name IS NULL OR emp_name = ''
+OR age IS NULL OR age = ''
+OR city IS NULL OR city = ''
+OR dept_id IS NULL OR dept_id = ''  
+OR hire_date IS NULL OR hire_date = '';
+
+
+---salaries
+
+SELECT * FROM Cleaned_salaries
+WHERE salary IS NULL OR salary = ''
+OR salary_date IS NULL OR salary_date = '';
+
+
+----Cleaned_attendance
+
+SELECT * FROM Cleaned_attendance
+WHERE attendance_date IS NULL OR attendance_date = ''
+OR status IS NULL OR status = '';
+
+
+----performance
+
+SELECT * FROM Cleaned_performance
+WHERE rating_2022 IS NULL OR rating_2022 = ''
+OR rating_2023 IS NULL OR rating_2023 = ''
+OR rating_2024 IS NULL OR rating_2024 = '';
