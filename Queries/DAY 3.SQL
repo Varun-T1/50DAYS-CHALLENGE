@@ -50,9 +50,9 @@ GROUP BY attendance_id,attendance_date,status
 HAVING COUNT(*) > 1;
 
 --FIND DUPLICATE IN CLEANED_PERFORMANCE
-SELECT rating_2022,rating_2023,rating_2024, COUNT(*)
+SELECT emp_id,rating_2022,rating_2023,rating_2024, COUNT(*)
 FROM Cleaned_performance 
-GROUP BY rating_2022,rating_2023,rating_2024
+GROUP BY emp_id,rating_2022,rating_2023,rating_2024
 HAVING COUNT(*) > 1;
 
 ---FIND DUPLICATE IN CLEANED_DEPARTMENT
