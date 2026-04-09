@@ -81,3 +81,22 @@ SELECT DISTINCT attendance_date FROM cleaned_attendance;
 UPDATE cleaned_attendance
 SET attendance_date ='2024-02-25'
 WHERE attendance_date IS NULL ;
+
+UPDATE cleaned_employee
+SET hire_date= NULL
+WHERE hire_date =-'';
+USE 50_day_challenge;
+
+SELECT hire_date FROM cleaned_employee;
+
+
+UPDATE cleaned_salaries
+SET salary_date= NULL
+WHERE salary_date =-'';
+
+SELECT salary_date FROM cleaned_salaries;
+
+UPDATE cleaned_attendance
+SET attendance_date= NULL
+WHERE attendance_date =-'';     
+SELECT attendance_date FROM cleaned_attendance;

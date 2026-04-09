@@ -1,4 +1,4 @@
-USE 50_day_challenge;
+--DATA CLEANING
 
 UPDATE Cleaned_employee
 SET emp_name =TRIM(emp_name);
