@@ -71,4 +71,3 @@ SELECT * FROM Cleaned_employee;
 SELECT * FROM Cleaned_salaries;
 SELECT * FROM Cleaned_attendance;
 SELECT * FROM Cleaned_performance;
-
