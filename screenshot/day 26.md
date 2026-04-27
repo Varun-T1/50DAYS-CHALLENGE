@@ -1,0 +1,6 @@
+##### Day 26: SQL Tasks (Department Ranking & Salary Comparison)
+
+• Find rank of employees within each department based on salary
+• Compare each employee’s salary with their department averag  (Above Avg / Below Avg / Equal)
+• Find top 3 highest paid employees in each department
+• Find lowest salary employee in each department
